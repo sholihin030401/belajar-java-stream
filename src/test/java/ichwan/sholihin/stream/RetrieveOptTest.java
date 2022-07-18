@@ -31,6 +31,7 @@ public class RetrieveOptTest {
     @Test
     void testDropWhile(){
         Stream.of("Ichwan","Sholihin","Budi","Joko","Yusuf","Budi","Ichwan")
+                .sorted()
                 .dropWhile(name -> name.length() < 4)
                 .forEach(System.out::println);
     }

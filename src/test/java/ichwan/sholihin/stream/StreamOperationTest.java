@@ -3,6 +3,7 @@ package ichwan.sholihin.stream;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamOperationTest {
@@ -29,5 +30,6 @@ public class StreamOperationTest {
                 .map(upper -> "Sir " + upper)
                 //foreach itu terminal operation, dia akan berjalan sesuai kebutuhan
                 .forEach(System.out::println);
+
     }
 }

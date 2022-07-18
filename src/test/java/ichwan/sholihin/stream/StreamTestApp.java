@@ -38,4 +38,6 @@ public class StreamTestApp {
 
         stream.forEach(System.out::println);
     }
+
+
 }
